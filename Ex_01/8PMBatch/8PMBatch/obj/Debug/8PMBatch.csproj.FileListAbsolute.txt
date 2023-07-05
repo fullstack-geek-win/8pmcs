@@ -1,0 +1,11 @@
+C:\Users\Praveena B\source\repos\8PMBatch\8PMBatch\bin\Debug\8PMBatch.exe.config
+C:\Users\Praveena B\source\repos\8PMBatch\8PMBatch\bin\Debug\8PMBatch.exe
+C:\Users\Praveena B\source\repos\8PMBatch\8PMBatch\bin\Debug\8PMBatch.pdb
+C:\Users\Praveena B\source\repos\8PMBatch\8PMBatch\obj\Debug\8PMBatch.csproj.AssemblyReference.cache
+C:\Users\Praveena B\source\repos\8PMBatch\8PMBatch\obj\Debug\8PMBatch.csproj.SuggestedBindingRedirects.cache
+C:\Users\Praveena B\source\repos\8PMBatch\8PMBatch\obj\Debug\_8PMBatch.Form1.resources
+C:\Users\Praveena B\source\repos\8PMBatch\8PMBatch\obj\Debug\_8PMBatch.Properties.Resources.resources
+C:\Users\Praveena B\source\repos\8PMBatch\8PMBatch\obj\Debug\8PMBatch.csproj.GenerateResource.cache
+C:\Users\Praveena B\source\repos\8PMBatch\8PMBatch\obj\Debug\8PMBatch.csproj.CoreCompileInputs.cache
+C:\Users\Praveena B\source\repos\8PMBatch\8PMBatch\obj\Debug\8PMBatch.exe
+C:\Users\Praveena B\source\repos\8PMBatch\8PMBatch\obj\Debug\8PMBatch.pdb
