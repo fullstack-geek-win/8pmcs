@@ -1,5 +1,0 @@
-Hello, this is line 1.
-This is line 2.
-1st time
-======================Hello, this is line 1.
-This is line 2.
