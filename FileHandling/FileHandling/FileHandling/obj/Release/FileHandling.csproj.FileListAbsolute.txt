@@ -1,0 +1,8 @@
+D:\8PMWD\FileHandling\FileHandling\FileHandling\bin\Release\FileHandling.exe.config
+D:\8PMWD\FileHandling\FileHandling\FileHandling\bin\Release\FileHandling.exe
+D:\8PMWD\FileHandling\FileHandling\FileHandling\bin\Release\FileHandling.pdb
+D:\8PMWD\FileHandling\FileHandling\FileHandling\obj\Release\FileHandling.csproj.AssemblyReference.cache
+D:\8PMWD\FileHandling\FileHandling\FileHandling\obj\Release\FileHandling.csproj.SuggestedBindingRedirects.cache
+D:\8PMWD\FileHandling\FileHandling\FileHandling\obj\Release\FileHandling.csproj.CoreCompileInputs.cache
+D:\8PMWD\FileHandling\FileHandling\FileHandling\obj\Release\FileHandling.exe
+D:\8PMWD\FileHandling\FileHandling\FileHandling\obj\Release\FileHandling.pdb

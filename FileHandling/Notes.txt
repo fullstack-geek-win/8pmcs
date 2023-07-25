@@ -1,0 +1,120 @@
+C# Console
+----------
+File Handling
+Error Handling
+Log Management
+
+1. Reading from a File:
+   using the StreamReader class. Here's a basic example of reading text from a file:
+
+using System;
+using System.IO;
+
+public class Program
+{
+    public static void Main()
+    {
+        string filePath = "path_to_your_file.txt";
+
+        try
+        {
+            using (StreamReader reader = new StreamReader(filePath))
+            {
+                string content = reader.ReadToEnd();
+                Console.WriteLine(content);
+            }
+        }
+        catch (FileNotFoundException)
+        {
+            Console.WriteLine("File not found.");
+        }
+        catch (IOException e)
+        {
+            Console.WriteLine("Error reading the file: " + e.Message);
+        }
+    }
+}
+
+
+2. Writing to a File:
+
+using System;
+using System.IO;
+
+public class Program
+{
+    public static void Main()
+    {
+        string filePath = "path_to_your_file.txt";
+
+        try
+        {
+            using (StreamWriter writer = new StreamWriter(filePath, append: false))
+            {
+                writer.WriteLine("Hello, this is line 1.");
+                writer.WriteLine("This is line 2.");
+            }
+        }
+        catch (IOException e)
+        {
+            Console.WriteLine("Error writing to the file: " + e.Message);
+        }
+    }
+}
+
+
+3. Checking if a File Exists:
+   using the File.Exists() method:
+
+using System;
+using System.IO;
+
+public class Program
+{
+    public static void Main()
+    {
+        string filePath = "path_to_your_file.txt";
+
+        if (File.Exists(filePath))
+        {
+            Console.WriteLine("The file exists.");
+        }
+        else
+        {
+            Console.WriteLine("The file does not exist.");
+        }
+    }
+}
+
+
+4. Deleting a File:
+   using the `File.Delete()` method:
+
+
+using System;
+using System.IO;
+
+public class Program
+{
+    public static void Main()
+    {
+        string filePath = "path_to_your_file.txt";
+
+        try
+        {
+            if (File.Exists(filePath))
+            {
+                File.Delete(filePath);
+                Console.WriteLine("File deleted successfully.");
+            }
+            else
+            {
+                Console.WriteLine("The file does not exist.");
+            }
+        }
+        catch (IOException e)
+        {
+            Console.WriteLine("Error deleting the file: " + e.Message);
+        }
+    }
+}
